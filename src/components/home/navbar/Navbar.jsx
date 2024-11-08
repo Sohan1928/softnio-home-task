@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="sticky top-0 z-10 flex items-center justify-between  px-5 md:px-[300px] mx-auto py-6 md:py-8">
+    <div className="sticky bg-[#a61b14] top-0 z-10 flex items-center justify-between  px-5 md:px-[300px] mx-auto py-6 md:py-8">
       {/* Logo Section */}
       <section className="flex items-center gap-[60px]">
         <div className="flex items-center gap-2">
@@ -41,7 +41,7 @@ const Navbar = () => {
           </button>
         </Link>
       </div>
-      {/* -------------------------- */}
+
       {/* Hamburger Icon for Small Devices */}
       <div className="md:hidden">
         <button
@@ -64,8 +64,6 @@ const Navbar = () => {
           </svg>
         </button>
       </div>
-
-      {/* ----------------- */}
 
       <div
         className={`w-56 overflow-hidden transition-all duration-500 ease-in-out ${
