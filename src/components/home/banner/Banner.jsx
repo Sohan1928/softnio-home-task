@@ -1,4 +1,4 @@
-import bannerImg from "../../../assets/Image/banner ing.png";
+import bannerImg from "../../../assets/Image/banner img.png";
 import starIcon from "../../../assets/Image/star.png";
 
 const Banner = () => {
@@ -24,7 +24,7 @@ const Banner = () => {
             alt="Saudi Cuisine"
           />
           <img
-            className="absolute top-2 md:-top-3 right-1 size-8 md:size-16 md:right-4"
+            className="absolute top-2 md:-top-3 right-1 size-8 md:size-16 md:right-2"
             src={starIcon}
             alt=""
           />
