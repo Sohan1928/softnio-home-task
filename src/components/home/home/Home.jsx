@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import Banner from "../banner/Banner";
 import Navbar from "../navbar/Navbar";
 import MarketExperience from "../marketExperience/MarketExperience";
+import PopularFood from "../popularFood/PopularFood";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <div className="px-4 pt-6 md:pt-[120px] md:px-[300px]">
         <MarketExperience></MarketExperience>
       </div>
+      <PopularFood></PopularFood>
     </div>
   );
 };
