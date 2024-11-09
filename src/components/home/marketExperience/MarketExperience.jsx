@@ -2,12 +2,13 @@ import React, { useState } from "react";
 import img from "../../../assets/Image/marketImg.png";
 import { FiPhoneCall } from "react-icons/fi";
 import IconSection from "./IconSection";
+import tomatoImg from "../../../assets/Image/tomato.png";
 
 const MarketExperience = () => {
   const [activeTab, setActiveTab] = useState("about");
   return (
-    <section className="">
-      <div className="mb-8 md:mb-[74px]">
+    <section className="relative mb-10 md:mb-24">
+      <div className="md:mb-[74px]">
         <div className="md:flex md:gap-10">
           {/* Image Section */}
           <div className="relative flex justify-center md:w-1/2">
@@ -197,6 +198,13 @@ const MarketExperience = () => {
       </div>
       <div>
         <IconSection></IconSection>
+      </div>
+      <div>
+        <img
+          className="absolute w-44 hidden md:block -right-36 md:w-64 md:-right-[475px] bottom-20"
+          src={tomatoImg}
+          alt=""
+        />
       </div>
     </section>
   );

@@ -17,7 +17,9 @@ const Home = () => {
       <div className="px-4 pt-6 md:pt-[120px] md:px-[300px]">
         <MarketExperience></MarketExperience>
       </div>
-      <PopularFood></PopularFood>
+      <div className="pt-6 md:pt-[120px] md:px-[300px] px-4 bg-[#f7f4ec]">
+        <PopularFood></PopularFood>
+      </div>
     </div>
   );
 };
