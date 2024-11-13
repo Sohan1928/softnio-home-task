@@ -3,6 +3,7 @@ import Banner from "../banner/Banner";
 import Navbar from "../navbar/Navbar";
 import MarketExperience from "../marketExperience/MarketExperience";
 import PopularFood from "../popularFood/PopularFood";
+import BookYourTable from "../bookYourTable/BookYourTable";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
       </div>
       <div className="pt-6 md:pt-[120px] md:px-[300px] px-4 bg-[#f7f4ec]">
         <PopularFood></PopularFood>
+      </div>
+      <div>
+        <BookYourTable></BookYourTable>
       </div>
     </div>
   );

@@ -17,10 +17,26 @@ const PopularFoodCart = () => {
     arrows: true,
     autoplay: true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 768, // Adjusts for screens smaller than 768px
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 1024, // Adjusts for screens smaller than 1024px
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="pb-24">
+    <div className="pb-24 overflow-x-hidden">
       <Slider {...settings}>
         {/* image 1 */}
         <div className="p-4 text-center bg-white h-[360px]">
