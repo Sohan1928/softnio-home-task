@@ -19,7 +19,7 @@ const MarketExperience = () => {
                 style={{ "--value": 80 }}
                 role="progressbar"
               >
-                <span className="text-black md:text-[26px] font-semibold">
+                <span className="text-black md:text-[20px] font-semibold">
                   50%+
                 </span>
               </div>

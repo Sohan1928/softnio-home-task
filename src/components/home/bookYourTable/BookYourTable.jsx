@@ -12,7 +12,7 @@ const BookYourTable = () => {
             "url(http://res.cloudinary.com/du0uabbwo/image/upload/v1731517289/dsqza260axkhwjbdobgu.jpg)",
         }}
       >
-        <div className="px-4 py-16 text-left md:w-1/2 md:py-24 md:pl-24">
+        <div className="px-4 py-16 text-left md:w-1/2 md:py-24 md:pl-[300px]">
           <div className="">
             <span className="flex items-center gap-3">
               <LiaSquareSolid className="text-[#BD1F17] size-5"></LiaSquareSolid>
